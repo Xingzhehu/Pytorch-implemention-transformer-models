@@ -194,7 +194,3 @@ sentiment, probs = analyze_sentiment(model, text, vocab, device)
 print(f"Sentiment: {sentiment}")
 print(f"Probabilities: Negative: {probs[0]:.4f}, Neutral: {probs[1]:.4f}, Positive: {probs[2]:.4f}")
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
